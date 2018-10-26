@@ -1,2 +1,6 @@
 # Android-Application-Courtify
-Here is an Android Application Named Courtify For The People Working In Guwahati High Court. Basically it shows information regarding Judgements, Causelist, Notices.
+
+Hi Human!
+Its Nilabh Here.Here's a small application that i made during my 6th Semester for my Dad.
+
+So the Android Application Name is Courtify. It is basically For all People Working In Guwahati High Court. It shows information regarding Judgements, Causelist, Notices.
