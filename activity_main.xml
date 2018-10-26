@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.webtek.ghy_hc.MainActivity"
+    android:background="@drawable/download2">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:fontFamily="serif-monospace"
+        android:text="Guwahati High
+Court"
+        android:textAlignment="center"
+        android:textColor="#80ffffff"
+        android:textSize="40dp"
+
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:drawableStart="@drawable/not"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/button2"
+        android:layout_alignStart="@+id/button3"
+        android:layout_marginBottom="25dp"
+        android:background="#33000000"
+        android:fontFamily="serif"
+        android:text="Cause List"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/button"
+        android:layout_centerVertical="true"
+        android:background="#33000000"
+        android:fontFamily="serif"
+        android:text="Judgments"
+        android:drawableStart="@drawable/jud"
+        android:textSize="17dp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/button2"
+        android:drawableStart="@drawable/ns"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:background="#33000000"
+        android:fontFamily="serif"
+        android:text="Notice"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/button3"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="33dp"
+        android:background="#20000000"
+        android:fontFamily="serif"
+        android:text="Exit Application"
+        android:drawableStart="@drawable/exit"
+        android:textSize="17dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="417dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:textColor="#30000000"
+        android:fontFamily="casual"
+        android:text="Application Developed By Nilabh Pratim Sharma" />
+</RelativeLayout>
